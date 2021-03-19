@@ -1,18 +1,18 @@
 # week2-homework
 
-Herkesten bugun işlediğimiz konular hakkinda bir yazi (makale) yazmasini istiyorum.
+Diyet Merkezleri İçin Vücut Kitle Indeksi Hesaplama Uygulaması
 
-WebApi projesi yapilacak
-Get - Post işlemleri (  postman uzerinden request ile test etmek dahil )
-Mapping 
-Extensions 
-Interface ve / veya abstract
-Validation olacak
-EFCore In-Memory kullanilabilir
+Özetçe ;
+Obezite çalışmalarında en çok kullanılan Dünya Sağlık Örgütü tarafından kabul edilen antropometrik ölçüm: Vücut ağırlığı ve boy ölçümleridir. 
+Vücut kitle indeksi (VKI), erişkinlerde boy ve kilo değerlerinden kolay ulaşılabilen, cinsiyet ayırımı yapılmadan, tüm bireylere uygulanabilen, 
+en yaygın ve geçerli standart bir boy-ağırlık indeksidir.Dünya Sağlık Örgütü’nünde kabul ettiği, VKI değerlerine göre bireyler; zayıf, normal, kilolu, obez olarak
+sınıflandırıldığı gibi obezlerde kendi aralarında sınıflara ayrılabilmektedir.Bu projede Diyet Merkezine gelen bireyler için Vücut kitle indeksi hesaplayacak 
+bir çalışma yapılması amaçlanmaktadır.Vucüt kitle indeksi hesaplanan bireylere yeterli ve dengeli beslenme alışkanlığı kazandırılarak onların kaliteli bir 
+hayat yaşamalarına yardımcı olması sağlanacaktır. 
+Projede gelen hastalar için boy , kilo , Index değeri gibi bilgileri tutulmaktadır.PatientType classında ise hastanın zayıf,normal,kilolu ve obez tipleri
+enum kulllanarak numaralandırılmıştır.DatabaseContext sınıfı oluşturularak veritabanı işlemlerini yöntecek merkezi bir sınıf oluşturulmuştur.Bu sınıf sayesinde, 
+oluşturduğumuz veri modelleri üzerinden veritabanı işlemlerini gerçekleştirilmektedir.Aynı zamanda validation durumları oluşturularak verilerin veritabanına 
+kaydedilmeden önce istenen şartları sağlayıp sağlamadığını kontrol etmektir.
 
-Makaleniz bu konulari içerebilir. 
+Anahtar Kelimeler: Vücut Kitle İndeksi , Sağlıklı Yaşam , Dengeli Beslenme
 
-Herkesin bir sensryo olusturmasini istiyorum. 
-O senaryo üzerinden yukaridaki konulari içeren bir makale olacak.
-
-Makaleyi yayinlamak zorunda değilsiniz, eğer yayınlarsanız reponuza pushlarken README.md dosyasını düzenleyip en alta linki yerleştirin. Kolay gelsin.
