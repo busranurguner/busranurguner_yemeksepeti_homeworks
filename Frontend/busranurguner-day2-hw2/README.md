@@ -1,4 +1,4 @@
 # MyDemo
 
-[Create React App](https://busranurguner.github.io/react-todoapp/).
+[react-todoapp](https://busranurguner.github.io/react-todoapp/).
 
